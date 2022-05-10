@@ -1,0 +1,63 @@
+<html>
+
+
+<head>
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="calculater">
+        <table border="1">
+            <tr>
+                <td colspan="3"><input class="input" value="0" id="input" type="text"></td>
+                <td><button class="size" onclick="clean()">C</button></td>
+            </tr>
+            <tr>
+                <td><button class="size" onclick="dis('7')">7</button></td>
+                <td><button class="size" onclick="dis('8')">8</button></td>
+                <td><button class="size" onclick="dis('9')">9</button></td>
+                <td><button class="size" class="se" onclick="dis('+')">+</button></td>
+
+            </tr>
+            <tr>
+                <td><button class="size" onclick="dis('4')">4</button></td>
+                <td><button class="size" onclick="dis('5')">5</button></td>
+                <td><button class="size" onclick="dis('6')">6</button></td>
+                <td><button class="size" class="se" onclick="dis('-')">-</button></td>
+
+            </tr>
+            <tr>
+                <td><button class="size" onclick="dis('1')">1</button></td>
+                <td><button class="size" onclick="dis('2')">2</button></td>
+                <td><button class="size" onclick="dis('3')">3</button></td>
+                <td><button class="size" class="se" onclick="dis('*')">×</button></td>
+
+            </tr>
+            <tr>
+                <td><button class="size" onclick="dis('.')">.</button></td>
+                <td><button class="size" onclick="dis('0')">0</button></td>
+                <td><button class="size" onclick="dis('/')">÷</button></td>
+                <td><button   class="size" class="se" onclick="solve()">=</button></td>
+
+
+            </tr>
+        </table>
+
+    </main>
+</div>
+</div>
+
+
+    <script src="script.js">
+        
+    </script>
+
+
+</body>
+
+</html>
